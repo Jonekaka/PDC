@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PsersonDataOs:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="PsersonDataOs-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PsersonDataOs:war exploded" />
+    </root>
+  </artifact>
+</component>

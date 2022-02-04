@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人数据中心</title>
+    <!--导入jquery-->
+    <script src="js/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+    <a href="dailyTask.html">跳转至任务公示系统</a>
+    <h1>个人数据引导系统</h1>
+    <hr>
+    <form action="servlet" method="post">
+        <label>此刻想法:</label></br>
+        <textarea placeholder="请输入所想：" cols="30" role="100" name="aaa"></textarea></br>
+        <input type="submit" value="提交">
+    </form>
+    <h1>个人知识系统</h1>
+    <hr>
+    <form action="servlet" method="post">
+        <label>此刻想法:</label></br>
+        <textarea placeholder="请输入所想：" cols="30" role="100" name="aaa"></textarea></br>
+        <input type="submit" value="提交">
+    </form>
+    <h1>个人智能家居系统</h1>
+    <hr>
+    <form action="clightServlet" method="post">
+        <input type="submit" value="开灯">
+    </form></br>
+    <form action="olightServlet" method="post">
+        <input type="submit" value="关灯">
+    </form>
+</body>
+</html>
